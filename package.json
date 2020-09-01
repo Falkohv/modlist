@@ -16,7 +16,5 @@
     "url": "https://github.com/Falkohv/modlist/issues"
   },
   "homepage": "https://github.com/Falkohv/modlist#readme",
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+  "devDependencies": {}
 }
