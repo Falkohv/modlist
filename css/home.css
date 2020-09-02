@@ -1,2 +1,2 @@
-.slide{width:100%}
+section.posts{background-color:#000;padding:30px 0 0 0}section.posts:before,section.posts:after{display:table;content:" "}section.posts:after{clear:both}section.posts .post-box{margin:20px auto;min-height:222px;background-color:#151515;color:#fff}section.posts .post-box img{float:left;witdh:360px;height:202.5px;margin:10px 10px 10px 10px}section.posts .textos{padding:20px 20px 20px 20px}
 /*# sourceMappingURL=home.css.map */
