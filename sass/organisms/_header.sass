@@ -1,18 +1,25 @@
 header
     +clearfix
-    //min-height: 500px
     background:
         color: $preto
     
     .banner
         min-height: 500px
         background: 
-            image: url('../images/banner-home.jpg')
-            position: top center
+            image: url('../images/test-banner.png')
+            position: center
+            margin: 100px 0 0 0
             repeat: no-repeat
             color: $preto
-            //attachment: fixed
             size: cover
+
+        +breakpoint($tablet)
+            min-height: 350px
+
+        +breakpoint($celular)
+            min-height: 250px
+
+
 
     .container
         width: 100%
