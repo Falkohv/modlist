@@ -19,15 +19,14 @@ section.posts
             +breakpoint($mintablet)
                 width: 90%
                 height: 90%
-
-                    
         
         +breakpoint($mintablet)
             witdh: 70%
+            padding: 0 0 10px 0
             img
                 float: none
                 display: block
-                margin: 0 auto
+                margin: 30px auto
                 padding: 20px 0 0 0
                 
     .container
@@ -37,14 +36,20 @@ section.posts
     .textos
         text-align: center
         padding: 20px 20px 20px 20px
+        +breakpoint($mintablet)
+            padding: 10px 20px 10px 20px
 
     .botao 
         text-transform: uppercase
         color: $branco
         border: 2px solid $branco
         padding: 10px
+        font-size: 18px
         font-weight: $bold
         &:hover,
         &focus
             color: $preto
             background: $branco
+
+        +breakpoint($slimcel)
+            font-size: 14px
