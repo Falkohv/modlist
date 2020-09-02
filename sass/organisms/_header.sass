@@ -34,6 +34,12 @@ header
         float: right
         
         nav
+            +breakpoint($tablet)
+                display: none
+
+            +breakpoint($celular)
+                display: none
+
             ul
                 li
                     display: inline-block
