@@ -5,19 +5,30 @@ section.posts
     padding: 30px 0 0 0
 
     .post-box
-        //padding: 10px 10px 10px 10px
         margin: 20px 0 40px 0
         min-height: 222px
         background:
             color: $cinza
         color: $branco
         align-items: center
-        //padding: 20px
         img
             float: left
             witdh: 360px
             height: 202.5px
             margin: 10px 10px 10px 10px
+            //+breakpoint($mintablet)
+                    
+        
+        +breakpoint($mintablet)
+            witdh: 70%
+            img
+                float: none
+                display: block
+                margin: 0 auto
+                padding: 20px 0 0 0
+                
+            
+
         
     .textos
         text-align: center
