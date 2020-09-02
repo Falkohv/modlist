@@ -16,7 +16,10 @@ section.posts
             witdh: 360px
             height: 202.5px
             margin: 10px 10px 10px 10px
-            //+breakpoint($mintablet)
+            +breakpoint($mintablet)
+                width: 90%
+                height: 90%
+
                     
         
         +breakpoint($mintablet)
@@ -27,8 +30,9 @@ section.posts
                 margin: 0 auto
                 padding: 20px 0 0 0
                 
-            
-
+    .container
+        +breakpoint($tablet)
+            width: 100%
         
     .textos
         text-align: center
