@@ -7,67 +7,78 @@
     <link rel="stylesheet" href="css/geral.css" />
     <link rel="stylesheet" href="css/plugins.css" />
 </head>
-<body>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="logo">
-                    Falkohv
-                </a>
-            </div>
-            <div class="links">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">INÍCIO</a></li>
-                        <li><a href="lists.html">LISTAS</a></li>
-                        <li><a href="showcases.html">SHOWCASES</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCQXI1SWuUaom_cYv3_qCb_w">CANAL</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="banner"></div>
-    </header>
-    <main>
-        <section class="posts">
-            <div class="container">
-                <div class="post-box">
-                    <div class="post1">
-                        <img src="images/thumb1.jpg" alt="SKYRIM SE: ULTRA">
-                        <div class="toptext">
-                            <a href="ultra.html" class="botao">Skyrim Special Edition: ULTRA</a>
-                        </div>
-                        <div class="textos">
-                            <p>Lista de mods para Skyrim Special Edition priorizando a qualidade gráfica e melhorias visuais dos ambientes e efeitos sem comprometer a gameplay.</p><br>
-                            <p><strong>Requisitos Mínimos:</strong></p>
-                            <p><strong>CPU:</strong> i5 7400 / Ryzen 3 1200</p>
-                            <p><strong>GPU:</strong> GTX 1660 6GB / RX 580 8GB</p>
-                            <p><strong>RAM:</strong> 8GB+ (preferência ao dual channel)</p>
-                        </div>
+    <body>
+
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="lists.html">LISTAS</a></li>
+                <li><a href="showcases.html">SHOWCASES</a></li>
+                <li><a href="https://www.youtube.com/channel/UCQXI1SWuUaom_cYv3_qCb_w">CANAL</a></li>
+            </ul>
+        </nav>
+
+        <div class="layout">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                            Falkohv
+                        </a>
+                    </div>
+                    <div class="links">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">INÍCIO</a></li>
+                                <li><a href="lists.html">LISTAS</a></li>
+                                <li><a href="showcases.html">SHOWCASES</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCQXI1SWuUaom_cYv3_qCb_w">CANAL</a></li>
+                            </ul>
+                        </nav>
+                        <a class="toggle" href="javascript:;">TOGGLE</a>
                     </div>
                 </div>
-                <!--<div class="post-box">
-                    <div class="post2">
-                        <img src="images/thumb2.png" alt="SKYRIM SE: LITE">
-                        <div class="textos">
-                            <p><a href="" class="botao">Skyrim Special Edition: LITE</a></p>
-                        </div>
-                        <div class="textos">
-                            <p>Descrição e Requisitos: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ullam praesentium nobis.</p>
-                        </div>
-                   </div>
-                </div>-->
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="rodape">
-            <img src="images/logo.png" alt="logo">
-            <p>©2020 by Falkohv</p>
+                <div class="banner"></div>
+            </header>
+            <main>
+                <section class="posts">
+                    <div class="container">
+                        <div class="post-box">
+                            <div class="post1">
+                                <img src="images/thumb1.jpg" alt="SKYRIM SE: ULTRA">
+                                <div class="toptext">
+                                    <a href="ultra.html" class="botao">Skyrim Special Edition: ULTRA</a>
+                                </div>
+                                <div class="textos">
+                                    <p>Lista de mods para Skyrim Special Edition priorizando a qualidade gráfica e melhorias visuais dos ambientes e efeitos sem comprometer a gameplay.</p><br>
+                                    <p><strong>Requisitos Mínimos:</strong></p>
+                                    <p><strong>CPU:</strong> i5 7400 / Ryzen 3 1200</p>
+                                    <p><strong>GPU:</strong> GTX 1660 6GB / RX 580 8GB</p>
+                                    <p><strong>RAM:</strong> 8GB+ (preferência ao dual channel)</p>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="rodape">
+                    <img src="images/logo.png" alt="logo">
+                    <p>©2020 by Falkohv</p>
+                </div>
+            </footer>
         </div>
-    </footer>
-</body>
+        
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('.menu-mobile').hide();
+                $('.toggle').click(function(){
+                    $('.layout').toggleClass('ativo');
+                });
+            });
+        </script>
+
+    </body>
 </html>
