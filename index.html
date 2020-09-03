@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Falkohv</title>
-    <link rel="stylesheet" href="css/geral.css" />
-    <link rel="stylesheet" href="css/plugins.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Falkohv</title>
+        <link rel="stylesheet" href="css/geral.css" />
+        <link rel="stylesheet" href="css/plugins.css" />
+    </head>
     <body>
-
         <nav class="menu-mobile">
             <ul>
                 <li><a href="index.html">INÍCIO</a></li>
@@ -17,7 +16,6 @@
                 <li><a href="https://www.youtube.com/channel/UCQXI1SWuUaom_cYv3_qCb_w">CANAL</a></li>
             </ul>
         </nav>
-
         <div class="layout">
             <header>
                 <div class="container">
@@ -34,9 +32,13 @@
                                 <li><a href="lists.html">LISTAS</a></li>
                                 <li><a href="showcases.html">SHOWCASES</a></li>
                                 <li><a href="https://www.youtube.com/channel/UCQXI1SWuUaom_cYv3_qCb_w">CANAL</a></li>
-                            </ul>
-                        </nav>
-                        <a class="toggle" href="javascript:;">TOGGLE</a>
+                            </ul>                            
+                        </nav> 
+                        <a class="toggle" href="javascript:;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>                       
                     </div>
                 </div>
                 <div class="banner"></div>
@@ -69,7 +71,6 @@
                 </div>
             </footer>
         </div>
-        
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script>
             $(function(){
@@ -77,9 +78,9 @@
                 $('.toggle').click(function(){
                     $('.layout').toggleClass('ativo');
                     $('.menu-mobile').toggleClass('ativo');
+                    $(this).toggleClass('ativo');
                 });
             });
         </script>
-
     </body>
 </html>
