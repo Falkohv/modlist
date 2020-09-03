@@ -73,9 +73,10 @@
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script>
             $(function(){
-                $('.menu-mobile').hide();
+                //$('.menu-mobile').hide();
                 $('.toggle').click(function(){
                     $('.layout').toggleClass('ativo');
+                    $('.menu-mobile').toggleClass('ativo');
                 });
             });
         </script>

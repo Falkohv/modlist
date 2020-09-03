@@ -2,9 +2,14 @@
     position:  fixed
     width: 150px
     height: 100%
-    left: 0
+    left: -150px
     top: 0
     background-color: $cinza
+
+    &.ativo
+        +transition(.2s)
+        left: 0
+
     ul 
         li            
             a 
@@ -21,6 +26,7 @@
 
 .layout
     &.ativo
+        +transition(.2s)
         padding-left: 150px
 
 .toggle
