@@ -33,16 +33,20 @@ section.lists
             text-transform: uppercase
             font-weight: $bold
             padding: 30px 0 0 0
+            +breakpoint($celular)
+                font-size: 30px
+            +breakpoint($slimcel)
+                font-size: 28px
         h6
             margin: 0 auto
             text-align: center
             text-transform: uppercase
-            padding: 0 0 50px 0
+            padding: 0 0 70px 0
 
     .box1
         margin: 0 auto
         width: 100%
-        max-width: 700px
+        max-width: 670px
         min-height: 214px
         padding: 20px
         background:
@@ -55,6 +59,16 @@ section.lists
             min-height: 0
             margin: 0 0 10px 0
         +breakpoint($celular)
+            float: none
+            max-width: 100%
+            min-height: 0
+            margin: 0 0 10px 0
+        +breakpoint($mintablet)
+            float: none
+            max-width: 100%
+            min-height: 0
+            margin: 0 0 10px 0
+        +breakpoint($tablet)
             float: none
             max-width: 100%
             min-height: 0
@@ -77,6 +91,16 @@ section.lists
             float: none
             width: 100%
             min-height: 0
+        +breakpoint($mintablet)
+            float: none
+            width: 100%
+            min-height: 0
+            //margin: 0 0 10px 0
+        +breakpoint($tablet)
+            float: none
+            width: 100%
+            min-height: 0
+            //margin: 0 0 10px 0
             
     .container-fluid
         width: 100%
@@ -105,79 +129,89 @@ section.lists
             display: block
         +breakpoint($celular)
             display: block
+        +breakpoint($mintablet)
+            display: block
 
     .col1
-        margin: 10px auto
-        padding: 10px
+        margin: 0 auto
         display: inline-block
         p
             padding: 20px 0 0 0
         +breakpoint($slimcel)
             display: block
             text-align: center
-            margin: 0 auto
-            padding: 0
             p 
                 padding: 10px
         +breakpoint($celular)
             display: block
             text-align: center
-            margin: 0 auto
-            padding: 0
+            p 
+                padding: 10px
+        +breakpoint($mintablet)
+            display: block
+            text-align: center
             p 
                 padding: 10px
 
     .col2
-        margin: 10px auto
-        padding: 10px
+        margin: 0 auto
         display: inline-block
         p
             padding: 20px 0 0 0
         +breakpoint($slimcel)
             display: block
             text-align: center
-            margin: 0 auto
-            padding: 0
             p 
                 padding: 10px
         +breakpoint($celular)
             display: block
             text-align: center
-            margin: 0 auto
-            padding: 0
+            p 
+                padding: 10px
+        +breakpoint($mintablet)
+            display: block
+            text-align: center
             p 
                 padding: 10px
 
     .col3
-        margin: 10px auto
-        padding: 10px
+        margin: 0 auto
         display: inline-block
         p
             padding: 20px 0 0 0
         +breakpoint($slimcel)
             display: block
             text-align: center
+            p 
+                padding: 10px
         +breakpoint($celular)
             display: block
             text-align: center
-            margin: 0 auto
-            padding: 0
+            p 
+                padding: 10px
+        +breakpoint($mintablet)
+            display: block
+            text-align: center
             p 
                 padding: 10px
 
     .col4
-        margin: 10px auto
-        padding: 10px
+        margin: 0 auto
         display: inline-block
         p
             padding: 20px 0 0 0
         +breakpoint($slimcel)
             display: block
             text-align: center
+            p 
+                padding: 10px
         +breakpoint($celular)
             display: block
             text-align: center
-            margin: 0 auto
-            padding: 0
+            p 
+                padding: 10px
+        +breakpoint($mintablet)
+            display: block
+            text-align: center
             p 
                 padding: 10px
