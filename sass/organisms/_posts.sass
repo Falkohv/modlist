@@ -5,65 +5,66 @@ section.posts
     padding: 30px 0 0 0
 
     .container
-        +breakpoint($tablet)
-            width: 100%
-
-    .post-box
-        margin: 20px 0 40px 0
-        min-height: 290px
-        background:
-            color: $cinza
-        color: $branco
-        align-items: center
-        padding: 10px 20px 10px 10px
-        img
-            float: left
-            witdh: 380px
-            height: 270px
-            margin: 0 20px 0 0
+        width: 100%
+        max-width: 1140px
+            +breakpoint($tablet)
+                max-width: 0
+            
+        .post-box
+            margin: 20px 0 40px 0
+            min-height: 290px
+            background:
+                color: $cinza
+            color: $branco
+            align-items: center
+            padding: 10px 20px 10px 10px
+            img
+                float: left
+                witdh: 380px
+                height: 270px
+                margin: 0 20px 0 0
+                +breakpoint($mintablet)
+                    width: 95%
+                    height: 95%
+                    float: none
+                    display: block
+                    margin: 10px auto
+                    padding: 20px 0 20px 0
             +breakpoint($mintablet)
-                width: 95%
-                height: 95%
-                float: none
-                display: block
-                margin: 10px auto
-                padding: 20px 0 20px 0
-            +breakpoint($mintablet)
-                padding: 10px 0 20px 0 
-        +breakpoint($mintablet)
-            witdh: 70%
-            padding: 0 0 20px 0                
-                
-    .toptext
-        text-align: center
-        padding: 30px
-        +breakpoint($mintablet)
-            padding: 10px 20px 30px 20px
+                witdh: 70%
+                padding: 0 0 20px 0                
+                    
+            .toptext
+                text-align: center
+                padding: 30px
+                +breakpoint($mintablet)
+                    padding: 10px 20px 30px 20px
 
-    .textos
-        text-align: center
-        padding: 20px 
-        +breakpoint($mintablet)
-            padding: 10px 20px 10px 20px
-        +breakpoint($slimcel)
-            padding: 10px 
-        p
-            margin: 0 auto
+                .botao 
+                    text-transform: uppercase
+                    color: $branco
+                    border: 2px solid $branco
+                    padding: 10px
+                    font-size: 18px
+                    font-weight: $bold
+                    &:hover,
+                    &focus
+                        color: $preto
+                        background: $branco
+                        +breakpoint($celular)
+                            font-size: 14px
+                        +breakpoint($slimcel)
+                            font-size: 11px
 
+            .textos
+                text-align: center
+                padding: 20px 
+                +breakpoint($mintablet)
+                    padding: 10px 20px 10px 20px
+                +breakpoint($slimcel)
+                    padding: 10px 
+                p
+                    margin: 0 auto
 
-    .botao 
-        text-transform: uppercase
-        color: $branco
-        border: 2px solid $branco
-        padding: 10px
-        font-size: 18px
-        font-weight: $bold
-        &:hover,
-        &focus
-            color: $preto
-            background: $branco
-        +breakpoint($celular)
-            font-size: 14px
-        +breakpoint($slimcel)
-            font-size: 11px
-    
+          
+            

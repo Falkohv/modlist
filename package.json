@@ -2,11 +2,7 @@
   "name": "falkohv",
   "version": "1.0.0",
   "description": "",
-<<<<<<< HEAD
-  "main": "gulpfile.js",
-=======
   "main": "",
->>>>>>> html
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,10 +16,6 @@
     "url": "https://github.com/Falkohv/modlist/issues"
   },
   "homepage": "https://github.com/Falkohv/modlist#readme",
-<<<<<<< HEAD
-  "devDependencies": {}
-=======
   "devDependencies": {},
   "dependencies": {}
->>>>>>> html
 }
