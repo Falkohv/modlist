@@ -8,207 +8,122 @@ section.lists
         width: 100%
         max-width: 1140px
 
-    .top-list
-        min-height: 290px
-        color: $branco
-        h3
-            margin: 0 auto
-            text-align: center
-            text-transform: uppercase
-            font-weight: $bold
-            padding: 30px 0 0 0
-            +breakpoint($celular)
-                font-size: 30px
-            +breakpoint($slimcel)
-                font-size: 28px
-        h6
-            margin: 0 auto
-            text-align: center
-            text-transform: uppercase
-            padding: 0 0 70px 0
+        .top-list
+            min-height: 290px
+            color: $branco
+            h3
+                margin: 0 auto
+                text-align: center
+                text-transform: uppercase
+                font-weight: $bold
+                padding: 30px 0 0 0
+                +breakpoint($celular)
+                    font-size: 30px
+                +breakpoint($slimcel)
+                    font-size: 28px
+            h6
+                margin: 0 auto
+                text-align: center
+                text-transform: uppercase
+                padding: 0 0 70px 0
 
-    .box1
-        margin: 0 auto
-        width: 100%
-        max-width: 630px
-        min-height: 156px
-        padding: 20px
-        background:
-            color: $cinza
-        color: $branco
-        float: left
-        +breakpoint($slimcel)
-            float: none
-            max-width: 100%
-            min-height: 0
-            margin: 0 0 10px 0
-        +breakpoint($celular)
-            float: none
-            max-width: 100%
-            min-height: 0
-            margin: 0 0 10px 0
-        +breakpoint($mintablet)
-            float: none
-            max-width: 100%
-            min-height: 0
-            margin: 0 0 10px 0
-        +breakpoint($tablet)
-            float: none
-            max-width: 100%
-            min-height: 0
-            margin: 0 0 10px 0
+            .box1
+                margin: 0 auto
+                width: 100%
+                max-width: 630px
+                min-height: 156px
+                padding: 20px 20px 10px 20px
+                background:
+                    color: $cinza
+                color: $branco
+                float: left
+                +breakpoint($slimcel)
+                    float: none
+                    max-width: 100%
+                    min-height: 0
+                    margin: 0 0 10px 0
+                +breakpoint($celular)
+                    float: none
+                    max-width: 100%
+                    min-height: 0
+                    margin: 0 0 10px 0
+                +breakpoint($mintablet)
+                    float: none
+                    max-width: 100%
+                    min-height: 0
+                    margin: 0 0 10px 0
+                +breakpoint($tablet)
+                    float: none
+                    max-width: 100%
+                    min-height: 0
+                    margin: 0 0 10px 0
 
-    .box2
-        margin: 0 auto
-        width: 310px
-        padding: 20px
-        background:
-            color: $cinza
-        color: $branco
-        float: right
-        +breakpoint($slimcel)
-            float: none
-            width: 100%
-            min-height: 0
-        +breakpoint($celular)
-            float: none
-            width: 100%
-            min-height: 0
-        +breakpoint($mintablet)
-            float: none
-            width: 100%
-            min-height: 0
-            //margin: 0 0 10px 0
-        +breakpoint($tablet)
-            float: none
-            width: 100%
-            min-height: 0
-            //margin: 0 0 10px 0
-            
-    .descricao
-        text-align: justify
+                .descricao
+                    text-align: justify
+                    line-height: 22px
 
+            .box2
+                margin: 0 auto
+                width: 310px
+                padding: 20px
+                background:
+                    color: $cinza
+                color: $branco
+                float: right
+                +breakpoint($slimcel)
+                    float: none
+                    width: 100%
+                    min-height: 0
+                +breakpoint($celular)
+                    float: none
+                    width: 100%
+                    min-height: 0
+                +breakpoint($mintablet)
+                    float: none
+                    width: 100%
+                    min-height: 0
+                +breakpoint($tablet)
+                    float: none
+                    width: 100%
+                    min-height: 0
+                
     .container-fluid
         width: 100%
         max-width: 1140px
+        //align-content: center
 
-    .listbox
-        margin: 10px 0 0 0
-        padding: 30px
-        background:
-            color: $cinza
-        color: $branco
-    
-    .boxtitle
-        text-transform: uppercase
-        font-size: 16px
-        font-weight: $bold
+        .listbox
+            margin: 10px 0 0 0
+            padding: 30px
+            background:
+                color: $cinza
+            color: $branco
+        
+            .boxtitle
+                text-transform: uppercase
+                font-size: 16px
+                font-weight: $bold
 
-    .boxsub
-        margin: 0 0 20px 0
+            .boxsub
+                margin: 0 0 20px 0
+                text-align: justify
 
-    .container-flex
-        align-items: center
-        display: flex
-        content: justify
-        +breakpoint($slimcel)
-            display: block
-        +breakpoint($celular)
-            display: block
-        +breakpoint($mintablet)
-            display: block
+            .row
+                text-align: center
+                
+                .col-sm-4,
+                .col-md-3,
+                    margin: 20px 0
 
-    .botao 
-        text-transform: uppercase
-        color: $branco
-        border: 2px solid $cinza
-        padding: 10px
-        &:hover,
-        &focus
-            color: $preto
-            background: $branco
-            border-color: $branco
+                .botao 
+                    text-transform: uppercase
+                    color: $branco
+                    border: 2px solid $cinza
+                    padding: 10px
+                    &:hover,
+                    &focus
+                        color: $preto
+                        background: $branco
+                        border-color: $branco
 
-    .col1
-        margin: 0 auto
-        display: inline-block
-        p
-            padding: 20px 0 0 0
-        +breakpoint($slimcel)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($celular)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($mintablet)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-
-    .col2
-        margin: 0 auto
-        display: inline-block
-        p
-            padding: 20px 0 0 0
-        +breakpoint($slimcel)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($celular)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($mintablet)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-
-    .col3
-        margin: 0 auto
-        display: inline-block
-        p
-            padding: 20px 0 0 0
-        +breakpoint($slimcel)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($celular)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($mintablet)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-
-    .col4
-        margin: 0 auto
-        display: inline-block
-        p
-            padding: 20px 0 0 0
-        +breakpoint($slimcel)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($celular)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
-        +breakpoint($mintablet)
-            display: block
-            text-align: center
-            p 
-                padding: 10px
+            
