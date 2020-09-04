@@ -16,15 +16,10 @@
     "url": "https://github.com/Falkohv/modlist/issues"
   },
   "homepage": "https://github.com/Falkohv/modlist#readme",
-<<<<<<< HEAD
   "devDependencies": {
     "popper.js": "^1.16.1"
   },
   "dependencies": {
     "jquery": "^3.5.1"
   }
-=======
-  "devDependencies": {},
-  "dependencies": {}
->>>>>>> 46b3386cbfe0ba07af441f80820180bcf8897764
 }
