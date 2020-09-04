@@ -7,7 +7,7 @@
             </footer>
         </div>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/wow/dist/wow.js"></script>
+        <script src="bower_components/wow/dist/wow.js"></script>        
         <script>
             $(function(){
                 //$('.menu-mobile').hide();
