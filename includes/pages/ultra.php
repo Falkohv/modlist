@@ -5,7 +5,7 @@
             <h6 class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s"">*foco exclusívo na qualidade gráfica e sonora!*</h6>
             <div class="box1 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
                 <div class="descricao">
-                    <p>Esta é minha lista pessoal de mods para Skyrim em sua versão Special Edition, possuindo cerca de 160 mods com foco exclusívo na qualidade gráfica e sonora sem perder a originalidade do jogo, portanto, nela não contém quaisquer mods que alteram drasticamente a mecânica do jogo vanila ou que adicionam itens/elementos que não fazem parte do jogo original (pequenas alterações no conteúdo "Extra" nos mods de *Gameplay).</p>
+                    <p>Esta é minha lista pessoal de mods para Skyrim em sua versão Special Edition, possuindo cerca de 160 mods com foco exclusívo na qualidade gráfica e sonora sem perder a originalidade do jogo, portanto, nela não contém quaisquer mods que alteram drasticamente a mecânica do jogo vanila ou que adicionam itens/elementos que não fazem parte do jogo original (pequenas alterações apenas no conteúdo "Extra" dos mods de Gameplay).</p>
                 </div>
             </div> 
             <div class="box2 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay=".2s">
