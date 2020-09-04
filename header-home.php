@@ -20,7 +20,7 @@
                             Falkohv
                         </a>
                     </div>
-                    <div class="links">
+                    <div class="links wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
                         <?php include('includes/organisms/menu.php'); ?>                        
                         <a class="toggle" href="javascript:;">
                             <span></span>
