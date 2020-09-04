@@ -22,6 +22,7 @@
     "sass-flex-mixin": "^1.0.3"
   },
   "devDependencies": {
-    "bootstrap": "^4.5.2"
+    "bootstrap": "^4.5.2",
+    "wow": "wowjs#^1.1.2"
   }
 }

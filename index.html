@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Falkohv</title>
+        <link rel="stylesheet" href="css/home.css" />
         <link rel="stylesheet" href="css/geral.css" />
         <link rel="stylesheet" href="css/plugins.css" />
+        <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css" />
     </head>
     <body>
         <nav class="menu-mobile">
@@ -19,14 +21,14 @@
         <div class="layout">
             <header>
                 <div class="container">
-                    <div class="logo">
+                    <div class="logo wow slideInLeft" data-wow-duration="1s" data-wow-delay=".4s">
                         <a href="index.html">
                             <img src="images/logo.png" alt="logo">
                             Falkohv
                         </a>
                     </div>
                     <div class="links">
-                        <nav>
+                        <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">
                             <ul>
                                 <li><a href="index.html">INÍCIO</a></li>
                                 <li><a href="lists.html">LISTAS</a></li>
@@ -41,12 +43,12 @@
                         </a>                       
                     </div>
                 </div>
-                <div class="banner"></div>
+                <div class="banner wow fadeIn" data-wow-duration="1.8s" data-wow-delay="1s"></div>
             </header>
             <main>
                 <section class="posts">
                     <div class="container">
-                        <div class="post-box">
+                        <div class="post-box wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s">
                             <div class="post1">
                                 <img src="images/thumb1.jpg" alt="SKYRIM SE: ULTRA">
                                 <div class="toptext">
@@ -65,13 +67,14 @@
                 </section>
             </main>
             <footer>
-                <div class="rodape">
+                <div class="rodape wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                     <img src="images/logo.png" alt="logo">
                     <p>©2020 by Falkohv</p>
                 </div>
             </footer>
         </div>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/wow/dist/wow.js"></script>
         <script>
             $(function(){
                 //$('.menu-mobile').hide();
@@ -80,6 +83,7 @@
                     $('.menu-mobile').toggleClass('ativo');
                     $(this).toggleClass('ativo');
                 });
+                new WOW().init();
             });
         </script>
     </body>
