@@ -3,22 +3,6 @@ header
     background:
         color: $preto
     
-    .banner
-        min-height: 500px
-        background: 
-            image: url('../images/banner.jpg')
-            position: center
-            padding: 100px 0 0 0
-            repeat: no-repeat
-            color: $preto
-            size: cover
-
-        +breakpoint($tablet)
-            min-height: 350px
-
-        +breakpoint($celular)
-            min-height: 250px
-
     .container
         width: 100%
         padding: 0 60px 0 60px
@@ -66,3 +50,21 @@ header
                             color: $preto
                             border-color: $branco
                             background: $branco
+        
+    .banner
+        min-height: 500px
+        background: 
+            image: url('../images/banner.jpg')
+            position: center
+            padding: 100px 0 0 0
+            repeat: no-repeat
+            color: $preto
+            size: cover
+
+        +breakpoint($tablet)
+            min-height: 350px
+
+        +breakpoint($celular)
+            min-height: 250px
+
+    

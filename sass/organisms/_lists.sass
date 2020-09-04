@@ -7,25 +7,9 @@ section.lists
     .container
         width: 100%
         max-width: 1140px
-            
-    .descricao
-        text-align: left
-        padding: 10px 0 40px 0
-        text-align: justify-all
-        
-    .botao 
-        text-transform: uppercase
-        color: $branco
-        border: 2px solid $cinza
-        padding: 10px
-        &:hover,
-        &focus
-            color: $preto
-            background: $branco
-            border-color: $branco
 
     .top-list
-        min-height: 310px
+        min-height: 290px
         color: $branco
         h3
             margin: 0 auto
@@ -46,8 +30,8 @@ section.lists
     .box1
         margin: 0 auto
         width: 100%
-        max-width: 670px
-        min-height: 214px
+        max-width: 630px
+        min-height: 156px
         padding: 20px
         background:
             color: $cinza
@@ -76,8 +60,7 @@ section.lists
 
     .box2
         margin: 0 auto
-        width: 270px
-        min-height: 214px
+        width: 310px
         padding: 20px
         background:
             color: $cinza
@@ -102,6 +85,9 @@ section.lists
             min-height: 0
             //margin: 0 0 10px 0
             
+    .descricao
+        text-align: justify
+
     .container-fluid
         width: 100%
         max-width: 1140px
@@ -131,6 +117,17 @@ section.lists
             display: block
         +breakpoint($mintablet)
             display: block
+
+    .botao 
+        text-transform: uppercase
+        color: $branco
+        border: 2px solid $cinza
+        padding: 10px
+        &:hover,
+        &focus
+            color: $preto
+            background: $branco
+            border-color: $branco
 
     .col1
         margin: 0 auto
