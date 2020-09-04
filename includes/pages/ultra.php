@@ -5,18 +5,16 @@
             <h6 class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s"">*Sem adição de conteúdo extra*</h6>
             <div class="box1 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
                 <div class="hardware">
-                    <p>Lorem ipsum dolor,</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sed numquam quibusdam tempore aliquid velit praesentium aspernatur, officiis atque incidunt modi. Assumenda architecto repellat enim quod? Facilis nisi aliquid fuga.</p>
+                    <p>Esta é minha lista pessoal de mods para Skyrim em sua versão Special Edition, da qual possui cerca de 160 mods com foco EXCLUSÍVO à qualidade gráfica e sonora do jogo, sem perder a originalidade, portanto, nela não contém quaisquer mods que alteram drasticamente a mecânica do jogo vanila.<br>
+                    Como "moddar" Skyrim é considerado uma arte, meu intúito é de ensinar e ajudar vocês a entrarem nesse "mundo artístico" dos mods de Skyrim.</p>
                 </div>
             </div> 
             <div class="box2 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay=".2s">
                 <div class="hardware">
-                    <p>Lorem ipsum dolor,</p>
-                    <p>sit amet consectetur adipisicing</p>
-                    <p>elit. Esse optio ut et porro</p>
-                    <p>molestiae doloribus </p>
-                    <p>harum reprehenderit sunt</p>
-                    <p>illum voluptatibus mollitia.</p>
+                    <p><strong>Requisitos Mínimos:</strong></p>
+                    <p><strong>CPU:</strong> i5 7400 / Ryzen 3 1200</p>
+                    <p><strong>GPU:</strong> GTX 1660 6GB / RX 580 8GB</p>
+                    <p><strong>RAM:</strong> 8GB+ (preferência ao dual channel)</p>
                 </div>
             </div>                 
         </div>
