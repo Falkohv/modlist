@@ -1,0 +1,55 @@
+section.showcases
+    +clearfix
+    background:
+        color: $preto
+    padding: 30px 0 0 0
+               
+    .container
+        width: 100%
+        max-width: 1300px
+ 
+    .top-showcases
+        min-height: 90px
+        color: $branco
+        h2
+            margin: 0 auto
+            text-align: center
+            text-transform: uppercase
+            font-weight: $bold
+            padding: 10px
+            +breakpoint($celular)
+                font-size: 30px
+            +breakpoint($slimcel)
+                font-size: 28px
+        h6
+            margin: 0 auto
+            text-align: center
+            text-transform: uppercase
+            padding: 0 0 70px 0
+
+    .banner-title
+        text-transform: uppercase
+        color: $branco
+        font-size: 16px
+        font-weight: $bold
+        padding-left: 15px
+
+    .banner-cases
+        margin: 0 0 60px 0
+        padding: 10px
+        width: 100%
+        background-color: $cinza
+        color: $branco
+        img
+            width: 100%
+
+    /*.botao 
+        text-transform: uppercase
+        color: $branco
+        border: 2px solid $cinza
+        padding: 10px
+        &:hover,
+        &focus
+            color: $preto
+            background: $branco
+            border-color: $branco
