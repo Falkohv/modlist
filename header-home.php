@@ -10,15 +10,8 @@
         <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css" />
     </head>
     <body>
-        <nav class="menu-mobile">
-            <ul>
-                <li><a href="index.php">INÍCIO</a></li>
-                <li><a href="#">LISTAS</a></li>
-                <li><a href="#">SHOWCASES</a></li>
-                <li><a href="https://www.youtube.com/channel/UCQXI1SWuUaom_cYv3_qCb_w">CANAL</a></li>
-            </ul>
-        </nav>
-        <div class="layout"> 
+        <?php include('includes/organisms/menu-mobile.php'); ?>
+        <div class="layout">
             <header>
                 <div class="container">
                     <div class="logo wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
@@ -27,21 +20,15 @@
                             Falkohv
                         </a>
                     </div>
-                    <div class="links wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
-                        <nav>
-                            <ul>
-                                <li><a href="index.php">INÍCIO</a></li>
-                                <li><a href="#">LISTAS</a></li>
-                                <li><a href="#">SHOWCASES</a></li>
-                                <li><a href="https://www.youtube.com/channel/UCQXI1SWuUaom_cYv3_qCb_w">CANAL</a></li>
-                            </ul>
-                        </nav>
+                    <div class="links">
+                        <?php include('includes/organisms/menu.php'); ?>                        
                         <a class="toggle" href="javascript:;">
                             <span></span>
                             <span></span>
                             <span></span>
-                        </a> 
+                        </a>                       
                     </div>
                 </div>
+                <div class="banner wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s"></div>
             </header>
             <main>
