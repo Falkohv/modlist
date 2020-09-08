@@ -2,10 +2,11 @@
     <div class="container">
         <div class="top-list">
             <h3 class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s"">Skyrim Special Edition: ULTRA</h3>
-            <h6 class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s"">*foco exclusívo na qualidade gráfica e sonora!*</h6>
+            <h6 class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s"">*Foco exclusívo na qualidade gráfica e sonora!*</h6>
             <div class="box1 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
                 <div class="descricao">
-                    <p>Esta é minha lista pessoal de mods para Skyrim em sua versão Special Edition, possuindo cerca de 140 mods com foco exclusívo na qualidade gráfica e sonora sem perder a originalidade do jogo, portanto, nela não contém quaisquer mods que alteram drasticamente a mecânica do jogo vanila ou que adicionam itens/elementos que não fazem parte do jogo original (pequenas alterações apenas no conteúdo "Extra" dos mods de Gameplay).</p>
+                    <p>Lista de mods com foco na qualidade gráfica e sonóra sem alterar a proposta inicial de Skyrim. A idéia é manter o jogo o mais autêntico possível, porém com gráficos aprimorados e jogabilidade mais imerssiva. Assista à minha playlist ensinando a fazer a instalação dos mods:</p>
+                    <p class="botao"><b>Assistir Tutorial</b></p>
                 </div>
             </div> 
             <div class="box2 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay=".2s">
@@ -17,99 +18,98 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 1. Ferramentas
             </div> 
             <div class="boxsub">
-                De início, usaremos das seguintes ferramentas:
+                Pra começar, precisamos de ferramentas:
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/4194" class="botao" target="_blank">1. Mod Organizer 2</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/144" class="botao" target="_blank">2. SSEEdit</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/4442" class="botao" target="_blank">3. SSELodGen</a></div>   
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194" class="botao" target="_blank">1. Mod Organizer 2</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/164" class="botao" target="_blank">2. SSEEdit</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/6642" class="botao" target="_blank">3. SSELodGen</a></div>   
             </div>
         </div>
 
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 2. Plugins
             </div>
             <div class="boxsub">
-                Em seguida, usaremos estes plugins essenciais para leitura de alguns mods:
+                E pra tudo rodar certo, alguns plugins são necessários:
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="http://skse.silverlock.org/" class="botao">1. SKSE</a></div>
+                <div class="col-md-4 col-sm-6"><a href="http://skse.silverlock.org/" class="botao" target="_blank">1. SKSE</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/13048" class="botao" target="_blank">2. PapyrusUtil</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444" class="botao" target="_blank">3. Address Library</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/245" class="botao" target="_blank">4. Achievements Enabler</a></div>  
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/23174" class="botao" target="_blank">5. ENB Helper</a></div>    
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 3. Essenciais
             </div>
             <div class="boxsub">
-                Estes são mods essenciais para iniciar nossa composição::
+                Vamos ao básico:
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/244" class="botao" target="_blank">1. Unofficial Patch </a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/274" class="botao" target="_blank">2. Cutting Room Floor</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/266" class="botao" target="_blank">1. Unofficial Patch </a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/276" class="botao" target="_blank">2. Cutting Room Floor</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/5804" class="botao" target="_blank">3. A Quality World Map</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/345" class="botao" target="_blank">4. Paarthurnax Dilemma</a></div>  
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/365" class="botao" target="_blank">4. Paarthurnax Dilemma</a></div>  
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/14084" class="botao" target="_blank">5. Project Optimization</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/272" class="botao" target="_blank">6. Alternate Start</a></div>     
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 4. Interface
             </div>
             <div class="boxsub">
-                Mods que alteram a HUD do game quase por completo, melhorando a experiencia com mais informações na tela, porém de maneira minimalista.
-                <p>*Instale também o patch de compatibilidade do SkyHUD com o Immerssive HUD*</p>
+                Mais informação na tela, porém sem deixar de ser minimalista.
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12404" class="botao" target="_blank">1. SkyUI</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12604" class="botao" target="_blank">1. SkyUI</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12440" class="botao" target="_blank">2. Immersvie HUD</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/443" class="botao" target="_blank">3. SkyHUD</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/463" class="botao" target="_blank">3. SkyHUD</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/1428" class="botao" target="_blank">4. Better Message Box</a></div>  
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/1429" class="botao" target="_blank">5. Better Dialogue</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12488" class="botao" target="_blank">6. moreHUD</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18419" class="botao" target="_blank">7. moreHUD Inventory</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12688" class="botao" target="_blank">6. moreHUD</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18619" class="botao" target="_blank">7. moreHUD Inventory</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/14332" class="botao" target="_blank">8. Floating Damage</a></div>      
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 5. Tradução
             </div>
             <div class="boxsub">
-                Tradução completa do jogo e dos mods acima para português do Brasil!
-                <p>*Instalaremos o JK's Skyrim à seguir*</p>
+                Tradução completa do jogo e dos mods acima para português do Brasil.
+                <p><i>*JK's Skyrim virá à seguir*</i></p>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/24159" class="botao" target="_blank">1. Skyrim SE</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/35342" class="botao" target="_blank">2. Unofficial Patch</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/24834" class="botao" target="_blank">3. Alternate Start</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/13019" class="botao" target="_blank">4. SkyUI</a></div>  
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/17929" class="botao" target="_blank">5. Paarthurnax Dilemma</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18711" class="botao" target="_blank">6. JK's Skyrim</a></div>     
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/24159" class="botao" target="_blank">1. Skyrim PT-BR</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/35342" class="botao" target="_blank">2. Unofficial Patch PT-BR</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/24834" class="botao" target="_blank">3. Alternate Start PT-BR</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/13019" class="botao" target="_blank">4. SkyUI PT-BR</a></div>  
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/17929" class="botao" target="_blank">5. Paarthurnax Dilemma PT-BR</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18711" class="botao" target="_blank">6. JK's Skyrim PT-BR</a></div>     
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 6. Pacotes de Textura
             </div>
             <div class="boxsub">
-                Finalmente vamos ao que interessa.
+                Finalmente vamos ao que interessa, GRAPHICS.
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6"><a href="https://www.moddb.com/mods/skyrim-realistic-overhaul" class="botao" target="_blank">1. Realistic Overhaul</a></div>
                 <div class="col-md-4 col-sm-6"><a href="http://enbseries.enbdev.com/forum/viewtopic.php?t=1499" class="botao" target="_blank">2. Particle Patch ENB</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/992/?" class="botao" target="_blank">3. Enhanced Textures Detail</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/459/?" class="botao" target="_blank">4. Static Mesh Improvement</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/659" class="botao" target="_blank">4. Static Mesh Improvement</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/5870/?" class="botao" target="_blank">5. Ruins Clutter Improved</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/34179" class="botao" target="_blank">6. Skyland AIO</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18247" class="botao" target="_blank">7. 3D Groundcovers</a></div>
@@ -117,7 +117,7 @@
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/9444" class="botao" target="_blank">9. Just Ice</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/15481" class="botao" target="_blank">10. Soul Caim HD</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/15891?" class="botao" target="_blank">11. Sovngarde HD</a></div>
-                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/14345?" class="botao" target="_blank">12. Underground</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/14365" class="botao" target="_blank">12. Underground</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18044?" class="botao" target="_blank">13. CC's HQ Mines</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/10738/?" class="botao" target="_blank">14. Gecko's Dwarven Ruins</a></div>
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/10955/?" class="botao" target="_blank">15. Gecko's Nordic Ruins</a></div>
@@ -128,12 +128,12 @@
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/11446" class="botao" target="_blank">20. Indistinguishable Billboards</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 7. Outras Texturas
             </div>
             <div class="boxsub">
-                Apenas alguns complementos adicionais aos grandes pacotes de textura.
+                Complementos adicionais aos pacotes de textura.
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/9768/?" class="botao" target="_blank">1. R's Farmhouse</a></div>
@@ -160,12 +160,12 @@
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/7849" class="botao" target="_blank">22. Forgotten Retex</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 8. Clima e Ambientação
             </div>
             <div class="boxsub">
-                Se tratando de Skyrim, a atmosfera é o fator mais impostante pra garantir uma ambientação atrativa e uma experiência imerssiva!
+                A atmosfera é o fator mais impostante pra garantir uma experiência atrativa e imerssiva!
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12125?" class="botao" target="_blank">1. Obsidian Weathers</a></div>
@@ -180,7 +180,7 @@
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/9005" class="botao" target="_blank">10. Landscape Fixes</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 9. Armas e Armaduras
             </div>
@@ -207,12 +207,12 @@
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/4933" class="botao" target="_blank">17. Winter is Coming</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
                 10. Corpo
             </div>
             <div class="boxsub">
-                Alterações na estrutura do personagem para melhor personificação do seu Dovahkiin.
+                Pra quem fica 3 horas fazendo o personagem.
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/3038/?" class="botao" target="_blank">1. Fores New Idles</a></div>
@@ -231,12 +231,30 @@
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/19532" class="botao" target="_blank">14. Expressive Facial Male</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
-                11. Criaturas e Animais
+                11. NPCs
             </div>
             <div class="boxsub">
-                Tocar o terror nos Dovahkiins lvl 5 por ai.
+                As you wish, my Thane. I'll protect you with my life.
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12376" class="botao" target="_blank">1. Ordinary Woman</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/7956" class="botao" target="_blank">2. Improved Bards</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/2650" class="botao" target="_blank">3. Children Overhaul</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/15001" class="botao" target="_blank">4. Immersive Children</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/11247" class="botao" target="_blank">5. Bijin Wives</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/1825" class="botao" target="_blank">6. Bijin Warmaidens</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/11287" class="botao" target="_blank">7. Bijin NPCs</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/13027" class="botao" target="_blank">8. Seranaholic</a></div>
+            </div>
+        </div>
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="boxtitle">
+                12. Criaturas e Animais
+            </div>
+            <div class="boxsub">
+                O terror dos Dovahkiins lvl 5 por ai.
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/6839/?" class="botao" target="_blank">1. Bellyaches Animal</a></div>
@@ -261,106 +279,69 @@
                 <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrim/mods/24909" class="botao" target="_blank">20. aMidianBorn</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
-                1. Pacotes de Textura
+                13. Efeitos
             </div>
             <div class="boxsub">
-                Finalmente vamos ao que interessa.
+                Ultima etapa das alterações gráficas:
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">1. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">2. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">3. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">4. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">5. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">6. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">7. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">8. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">9. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">10. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">11. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">12. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">13. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">14. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">15. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">16. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">17. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">18. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">19. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">20. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">21. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">22. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">23. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">24. Mod Organizer</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/2424" class="botao" target="_blank">1. Enhanced Light FX</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/22594" class="botao" target="_blank">2. ELFX ASLAL Patch</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/5520" class="botao" target="_blank">3. Unofficial ELFX Patch</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/4873/?" class="botao" target="_blank">4. WEBS</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/2182/?" class="botao" target="_blank">5. Realistic Water Two</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/2357" class="botao" target="_blank">6. Enhanced Blood</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/13749/?" class="botao" target="_blank">7. Vulcanic Tundra</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/3532" class="botao" target="_blank">8. Frozen Eletrocuted</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/25127" class="botao" target="_blank">9. FEC Extra Crispy</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/12939" class="botao" target="_blank">10. Deadly Spell Impact</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/20654" class="botao" target="_blank">11. Ultimate HD Fire</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/29817" class="botao" target="_blank">12. Frost Effects</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/2458" class="botao" target="_blank">13. Transparent Ice</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/2407" class="botao" target="_blank">14. Dust Effects</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/5836" class="botao" target="_blank">15. Skyrim is Windy</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/3808" class="botao" target="_blank">16. Footprints</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/14905" class="botao" target="_blank">17. TK Recoil</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/21220" class="botao" target="_blank">18. Alternate Conversation</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/25939" class="botao" target="_blank">19. Falling Leaves</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/22706" class="botao" target="_blank">20. More Light Arrows</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/22703" class="botao" target="_blank">21. More Light Bthardams</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/22705" class="botao" target="_blank">22. More Light Chaurus</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/22814" class="botao" target="_blank">23. More Light Nirnroots</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/22819" class="botao" target="_blank">24. More Light Moths</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/22704" class="botao" target="_blank">25. More Light SoulGems</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
-                1. Pacotes de Textura
+                14. Áudio
             </div>
             <div class="boxsub">
-                Finalmente vamos ao que interessa.
+                Melhora significativa da qualidade sonóra, porém precisa de equipamento adequado (fones, caixas, etc).
+                <p><i>*Contudo, Você PRECISA testar o More Painfull NPC Death Sound, confia.*</i></p>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">1. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">2. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">3. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">4. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">5. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">6. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">7. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">8. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">9. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">10. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">11. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">12. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">13. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">14. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">15. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">16. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">17. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">18. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">19. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">20. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">21. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">22. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">23. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">24. Mod Organizer</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/4968" class="botao" target="_blank">1. High Quality Music</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/17035" class="botao" target="_blank">2. HD Voices English</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/523" class="botao" target="_blank">3. Sounds Compendium</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/25702" class="botao" target="_blank">4. Painful Death Sounds</a></div>
             </div>
         </div>
-        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="listbox wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
             <div class="boxtitle">
-                1. Pacotes de Textura
+                15. Patches Finais
             </div>
             <div class="boxsub">
-                Finalmente vamos ao que interessa.
+                Por último, precisamos ir atrás dos patches que faltam. Rodando o Loot podemos sdescobrir quais.
+                <p><i>*Os mods abaixo são coletânias de patches, podem facilitar na busca.*</i></p>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">1. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">2. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">3. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">4. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">5. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">6. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">7. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">8. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">9. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">10. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">11. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">12. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">13. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">14. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">15. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">16. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">17. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">18. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">19. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">20. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">21. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">22. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">23. Mod Organizer</a></div>
-                <div class="col-md-4 col-sm-6"><a href="#" class="botao" target="_blank">24. Mod Organizer</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18369" class="botao" target="_blank">1. QUASIPC</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/9951?tab=files" class="botao" target="_blank">2. Lost of T'Skyrim</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/13409" class="botao" target="_blank">3. Children Patches</a></div>
+                <div class="col-md-4 col-sm-6"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/2951?tab=files" class="botao" target="_blank">3. ISC Patches</a></div>
             </div>
         </div>
     </div>

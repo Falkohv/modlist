@@ -106,23 +106,38 @@ section.lists
     .boxsub
         margin: 0 0 20px 0
         text-align: justify
+        i
+            font-size: 12px
 
     .row
         text-align: center
     
     .col-sm-6,
     .col-md-4,
-        margin: 20px 0
+        margin: 10px 0
         min-width: 250px
         text-align: left
+        +breakpoint($mintablet)
+            margin: 20px 0
 
     .botao 
         text-transform: uppercase
         color: $branco
-        border: 2px solid $cinza
+        border: 1px solid $cinza
         padding: 10px
         &:hover,
         &focus
             color: $preto
             background: $branco
             border-color: $branco
+        +breakpoint($slimcel)
+            font-size: 10px
+        +breakpoint($celular)
+            font-size: 12px
+        
+    .botao-video
+        padding: 10px
+        p
+            text-align: center 
+
+
