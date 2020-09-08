@@ -9,8 +9,6 @@
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/geral.css" />
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css" />
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/wow/css/libs/animate.css" />
-        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/slick-carousel/slick/slick-theme.css" />
-        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/slick-carousel/slick/slick.css" />
     </head>
     <body>
         <?php include('includes/organisms/menu-mobile.php'); ?>
@@ -18,7 +16,7 @@
             <header>
                 <div class="container">
                     <div class="logo wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".2s">
-                        <a href="index.php">
+                        <a href="<?php bloginfo('url'); ?>">
                             <img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="logo">
                             Falkohv
                         </a>

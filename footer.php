@@ -7,7 +7,6 @@
                 </div>
             </footer>
         </div>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="<?php bloginfo('template_url'); ?>/bower_components/wow/dist/wow.js"></script>
         <script>
