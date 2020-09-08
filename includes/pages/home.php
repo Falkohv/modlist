@@ -7,7 +7,7 @@
                     <a href="ultra.php" class="botao">Skyrim Special Edition: ULTRA</a>
                 </div>
                 <div class="textos">
-                    <p>Lista de mods para Skyrim Special Edition priorizando a qualidade gráfica e melhorias visuais dos ambientes e efeitos sem comprometer a gameplay.</p><br>
+                    <p>Lista de mods com os melhores gráficos.</p><br>
                     <p><strong>Requisitos Mínimos:</strong></p>
                     <p><strong>CPU:</strong> i5 7400 / Ryzen 3 1200</p>
                     <p><strong>GPU:</strong> GTX 1660 6GB / RX 580 8GB</p>

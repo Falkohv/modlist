@@ -6,7 +6,9 @@
             <div class="box1 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
                 <div class="descricao">
                     <p>Lista de mods com foco na qualidade gráfica e sonóra sem alterar a proposta inicial de Skyrim. A idéia é manter o jogo o mais autêntico possível, porém com gráficos aprimorados e jogabilidade mais imerssiva. Assista à minha playlist ensinando a fazer a instalação dos mods:</p>
-                    <p class="botao"><b>Assistir Tutorial</b></p>
+                    <div class="botao-video">
+                        <p><a href="#" class="botao"><b>Assistir Tutorial</b></a></p>
+                    </div>
                 </div>
             </div> 
             <div class="box2 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay=".2s">
