@@ -7,8 +7,8 @@ section.posts
     .container
         width: 100%
         max-width: 1140px
-        +breakpoint($tablet)
-            max-width: 0
+        /*+breakpoint($tablet)
+            max-width: 100%
 
     .post-box
         margin: 20px 0 40px 0
@@ -40,21 +40,21 @@ section.posts
         +breakpoint($mintablet)
             padding: 10px 20px 30px 20px
 
-        .botao 
-            text-transform: uppercase
-            color: $branco
-            border: 2px solid $branco
-            padding: 10px
-            font-size: 18px
-            font-weight: $bold
-            &:hover,
-            &focus
-                color: $preto
-                background: $branco
-                +breakpoint($celular)
-                    font-size: 14px
-                +breakpoint($slimcel)
-                    font-size: 11px
+    .botao 
+        text-transform: uppercase
+        color: $branco
+        border: 2px solid $branco
+        padding: 10px
+        font-size: 18px
+        font-weight: $bold
+        &:hover,
+        &focus
+            color: $preto
+            background: $branco
+            +breakpoint($celular)
+                font-size: 14px
+            +breakpoint($slimcel)
+                font-size: 11px
 
     .textos
         text-align: center
