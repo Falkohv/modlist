@@ -7,8 +7,6 @@ section.posts
     .container
         width: 100%
         max-width: 1140px
-        /*+breakpoint($tablet)
-            max-width: 100%
 
     .post-box
         margin: 20px 0 40px 0
@@ -47,15 +45,15 @@ section.posts
         padding: 10px
         font-size: 18px
         font-weight: $bold
+        +breakpoint($celular)
+            font-size: 14px
+        +breakpoint($slimcel)
+            font-size: 11px
         &:hover,
         &focus
             color: $preto
             background: $branco
-            +breakpoint($celular)
-                font-size: 14px
-            +breakpoint($slimcel)
-                font-size: 11px
-
+        
     .textos
         text-align: center
         padding: 20px

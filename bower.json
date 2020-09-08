@@ -19,7 +19,8 @@
     "font-awesome": "^5.14.0",
     "bootstrap-sass": "^3.4.1",
     "breakpoint-sass": "^2.7.1",
-    "sass-flex-mixin": "^1.0.3"
+    "sass-flex-mixin": "^1.0.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "bootstrap": "^4.5.2",

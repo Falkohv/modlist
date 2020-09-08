@@ -2,9 +2,9 @@
     <div class="container">
         <div class="post-box wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
             <div class="post1">
-                <img src="images/thumb1.jpg" alt="SKYRIM SE: ULTRA">
+                <img src="<?php bloginfo('template_url'); ?>/images/thumb1.jpg" alt="SKYRIM SE: ULTRA">
                 <div class="toptext">
-                    <a href="ultra.php" class="botao">Skyrim Special Edition: ULTRA</a>
+                    <a href="http://127.0.0.102/ultra" class="botao">Skyrim Special Edition: ULTRA</a>
                 </div>
                 <div class="textos">
                     <p>Lista de mods com os melhores gráficos.</p><br>
