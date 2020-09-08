@@ -4,7 +4,6 @@
         register_nav_menus(
             array(
                 'header-menu' => _('Menu')
-                
             )
         );
     }
