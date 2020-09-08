@@ -1,0 +1,12 @@
+header .logo {
+  float: left;
+}
+header .links {
+  float: right;
+}
+header .links nav ul li {
+  display: inline-block;
+}
+header .links nav ul li a {
+  text-transform: uppercase;
+}
